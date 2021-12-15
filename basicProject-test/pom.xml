@@ -14,6 +14,7 @@
     <dependencies>
 
         <dependency>
+            <!--这边没有写版本，是因为版本号在父pom文件中，由父来统一控制，避免因版本号不一致导致的错误-->
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
